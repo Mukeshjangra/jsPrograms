@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+</head>
+
+<body>
+<script>
+let result;
+
+const operator = prompt('Enter operator ( either +, -, * or /, % ,++,--,&,l,^,<<,>>): ');
+
+const number1 = parseFloat(prompt('Enter first number: '));
+const number2 = parseFloat(prompt('Enter second number: '));
+
+switch(operator) {
+    case '+':
+         result = number1 + number2;
+        console.log(`${number1} + ${number2} = ${result}`);
+      console.log("result");
+        break;
+
+    case '-':
+         result = number1 - number2;
+        console.log(`${number1} - ${number2} = ${result}`);
+        break;
+
+    case '*':
+         result = number1 * number2;
+        console.log(`${number1} * ${number2} = ${result}`);
+        break;
+
+    case '/':
+         result = number1 / number2;
+        console.log(`${number1} / ${number2} = ${result}`);
+        break;
+
+    default:
+        console.log('Invalid operator');
+        break;
+}
+var a = 33;
+            var b = 10;
+            var c = "Test";
+            var linebreak="<br>";
+
+         
+            document.write("a + b + c = ");
+            result = a + b + c;
+            document.write(result);
+           document.write(linebreak);
+         
+            a = ++a;
+            document.write("++a = ");
+            result = ++a;
+            document.write(result);
+      document.write(linebreak);
+         
+            b = --b;
+            document.write("--b = ");
+            result = --b;
+            document.write(result);
+            document.write(linebreak);
+         
+document.write("(a & b) => ");
+            result = (a & b);
+            document.write(result);
+            document.write(linebreak);
+         
+            document.write("(a | b) => ");
+            result = (a | b);
+            document.write(result);
+            document.write(linebreak);
+         
+            document.write("(a ^ b) => ");
+            result = (a ^ b);
+            document.write(result);
+            document.write(linebreak);
+         
+            document.write("(~b) => ");
+            result = (~b);
+            document.write(result);
+            document.write(linebreak);
+         
+            document.write("(a << b) => ");
+            result = (a << b);
+            document.write(result);
+            document.write(linebreak);
+         
+            document.write("(a >> b) => ");
+            result = (a >> b);
+            document.write(result);
+            document.write(linebreak);
+
+
+</script>
+</body>
+
+</html>
